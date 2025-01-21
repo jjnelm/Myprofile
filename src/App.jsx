@@ -6,5 +6,4 @@ const App = () => {
   <Portfolio></Portfolio>
   );
 };
-git 
 export default App;
