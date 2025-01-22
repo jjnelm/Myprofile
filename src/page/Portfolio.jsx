@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 // Sample images
 import profileImage from "../assets/profile.jpg";
-import Logo1 from "../assets/thurston-logo.jpg";
+import Logo1 from "../assets/thurston-logo.png";
 import Logo2 from "../assets/surge-logo.jpg";
 import Logo3 from "../assets/airo-logo.jpg";
 
