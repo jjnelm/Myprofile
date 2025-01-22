@@ -3,7 +3,9 @@ import { useEffect } from "react";
 
 // Sample images
 import profileImage from "../assets/profile.jpg";
-import gameStyleLogo from "../assets/surge-logo.jpg";
+import Logo1 from "../assets/thurston-logo.jpg";
+import Logo2 from "../assets/surge-logo.jpg";
+import Logo3 from "../assets/airo-logo.jpg";
 
 const Portfolio = () => {
   useEffect(() => {
@@ -72,7 +74,7 @@ const Portfolio = () => {
 
           {/* Thurston Software Solutions */}
           <div className="mb-8 border-b border-white pb-8">
-            <img src={gameStyleLogo} alt="Thurston Software Solutions" className="w-16 h-16 object-contain mb-4" />
+            <img src={Logo1} alt="Thurston Software Solutions" className="w-16 h-16 object-contain mb-4" />
             <h3 className="text-xl font-bold text-white">QA Tester | Thurston Software Solutions, Inc.</h3>
             <p className="text-sm text-gray-400 mb-2">May 2024 – December 2024</p>
             <ul className="list-disc list-inside text-white leading-relaxed">
@@ -84,7 +86,7 @@ const Portfolio = () => {
 
           {/* Surge Mobile Access */}
           <div className="mb-8 border-b border-white pb-8">
-            <img src={gameStyleLogo} alt="Surge Mobile Access" className="w-16 h-16 object-contain mb-4" />
+            <img src={Logo2} alt="Surge Mobile Access" className="w-16 h-16 object-contain mb-4" />
             <h3 className="text-xl font-bold text-white">QA Tester | Surge Mobile Access</h3>
             <p className="text-sm text-gray-400 mb-2">November 2022 – February 2024</p>
             <ul className="list-disc list-inside text-white leading-relaxed">
@@ -96,7 +98,7 @@ const Portfolio = () => {
 
           {/* Limitless Technology Solutions */}
           <div>
-            <img src={gameStyleLogo} alt="Limitless Technology Solutions" className="w-16 h-16 object-contain mb-4" />
+            <img src={Logo3} alt="Limitless Technology Solutions" className="w-16 h-16 object-contain mb-4" />
             <h3 className="text-xl font-bold text-white">QA Tester | Limitless Technology Solutions</h3>
             <p className="text-sm text-gray-400 mb-2">January 2021 – November 2022</p>
             <ul className="list-disc list-inside text-white leading-relaxed">
