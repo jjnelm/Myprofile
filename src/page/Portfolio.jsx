@@ -4,6 +4,7 @@ import { useEffect } from "react";
 // Sample images
 import profileImage from "../assets/profile.jpg";
 import ThurstonLogo from "../assets/thurston-logo.png";
+import Thurstonlogo2 from "../assets/thurston2logo.jpg"
 import SurgeLogo from "../assets/surge-logo.jpg";
 import Airologo from "../assets/airo-logo.jpg";
 import QMlogo from "../assets/QMDSI.jpg"
@@ -19,10 +20,10 @@ const Portfolio = () => {
       title: 'QA Tester | Quantum Metal Digitals Solutions Incorporated',
       duration: 'Dec 2024 – Present',
       skills: ['Developed and executed test cases for insurance management software.', 'Performed user interface testing and cross-browser compatibility tests.', 'Worked closely with developers to troubleshoot and resolve defects.'],
-  
+
     },
     {
-      logo: ThurstonLogo,
+      logo: Thurstonlogo2,
       title: 'QA Tester | Thurston Software Solutions, Inc.',
       duration: 'May 2024 – December 2024',
       skills: ['Developed and executed test cases for insurance management software.', 'Performed user interface testing and cross-browser compatibility tests.', 'Worked closely with developers to troubleshoot and resolve defects.'],
@@ -31,14 +32,14 @@ const Portfolio = () => {
       logo: SurgeLogo,
       title: 'QA Tester | Surge Mobile Access',
       duration: 'November 2022 – February 2024',
-      skills: ['Developed and executed test cases for insurance management software.', 'Performed user interface testing and cross-browser compatibility tests.', 'Worked closely with developers to troubleshoot and resolve defects.'],
-  
+      skills: ['Conducted testing of mobile apps for e-wallet platforms.', 'Performed security and regression tests to ensure a seamless user experience.', 'Utilized Postman and SQL queries for API testing and data validation.'],
+
     },
     {
       logo: Airologo,
       title: 'QA Tester | Limitless Technology Solutions',
       duration: 'January 2021 – November 2022',
-      skills: ['Developed and executed test cases for insurance management software.', 'Performed user interface testing and cross-browser compatibility tests.', 'Worked closely with developers to troubleshoot and resolve defects.'],
+      skills: ['Ensured the quality of fintech applications, focusing on transaction security.', 'Collaborated with the development team to improve application performance.', 'Wrote and maintained test plans and test cases in Jira.'],
     }
   ]
 
@@ -105,9 +106,9 @@ const Portfolio = () => {
         {/* Right Column - Professional Experience */}
         <section className="bg-gray-800 p-8">
           <h2 className="text-3xl font-semibold text-white mb-6">Professional Experience</h2>
-                    {
-                        experiences.map(experience =><Experience logo = {experience.logo} title = {experience.title} duration={experience.duration} skills={experience.skills}/>)
-                    }
+          {
+            experiences.map(experience => <Experience logo={experience.logo} title={experience.title} duration={experience.duration} skills={experience.skills} />)
+          }
         </section>
       </div>
 
